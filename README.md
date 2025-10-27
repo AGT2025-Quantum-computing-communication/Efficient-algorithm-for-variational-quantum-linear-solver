@@ -18,5 +18,5 @@ with $A$ a $2^n\times2^n$ matrix and $\ket X the solution vector. Our algorithm 
 - [x]  Select a classical optimizer that help to smothly tune the paramters $\theta$ and minimize the objective function.
 
  The implementation with quantum gates is straitforward: (i) we choose an ancillar register with  $L$ qubits, and (ii) choose $L$ identical basis to measure the $L$ observables of the Hamiltonian operator. It is worth mentioning that the algorithm requires higher number of qubits as compared to existing ones, however, it takes fewer number of layered gates (less circuit depth). This is particularly important because lower circuit depth implies less noise or less decoherence, showing that the algorithm is efficient to implement under current noisy quantum hardwares. One can think that the number of qubits required is excessive for higher dimensional problem, having large number of Pauli strings but the algorithm offers the possibility to subdivide this into smaller block and then can be implemented on any current quantum hardware. Below is the circuit diagram:
-[Circuit Diagram](circ_diagram.png)
+[Circuit Diagram](Circ_diagram.png)
  
