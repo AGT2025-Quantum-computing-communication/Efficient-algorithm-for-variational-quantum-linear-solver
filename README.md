@@ -21,7 +21,7 @@ with $A$ a $2^n\times2^n$ matrix and $\ket X the solution vector. Our algorithm 
 ![Circuit Diagram](Circ_diagram.png){width=100px}
 
 <figure style="text-align:center">
-  <img src="Circ_diagramt.png" alt="Quantum Circuit" width="400">
+  <img src="Circ_diagram.png" alt="Quantum Circuit" width="400">
   <figcaption>Figure 1: Quantum circuit diagram</figcaption>
 </figure>
  
