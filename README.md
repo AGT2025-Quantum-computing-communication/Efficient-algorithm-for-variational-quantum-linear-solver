@@ -4,4 +4,8 @@ In this notebook, we introduce a new variational quantum linear solver algorithm
 
 **Problem setup**
 
-Let's assume that we want to solve a system of $N\times N$ 
+Let's assume that we want to solve a system of $N\times N$ linear equation ($N=2^n, where $n$ is the number of qubits, $N$ the Hilbert space dimension), of the form:
+
+$$
+A\ket(X) =\ket(b)
+$$
