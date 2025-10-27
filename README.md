@@ -12,4 +12,4 @@ $$
 with $A$ a $2^n\times2^n$ matrix and $\ket X the solution vector. Our algorithm to solve this equation is described as follows:
 
 - [x] From the system above we first construct a positive semi-definite operator **$H$** such that $H = \frac{1}{N}[A^\dagger(I_N - \ket b \bra b )A]$ or a local Hamiltonian following the work of Bravo et al  as $H = \frac{1}{N}[A^\dagger U_b(I_N - \sum_{k=0}^{n} \ket 0_k \bra 0_k \otimes I_{n-1} )U_b^\dagger A]$, where the normalisation condition $N$ is defined by $N = \bra X A^\dagger A \ket X$, and $U_b$ the unitary that prapares the vector $\ket b$. Further detail concerning these Hamiltonian operators can be found in \cite{bravo}.
-- [x] 
+- [x] Given that these Hamiltonian operators are not unitary they cannot be encoded with unitary gates in this form, thus, the next step is to make a unitary decomposition, i.e. rewrite the Hamiltanian as a linear combination of Pauli strings as $H = \sum_{k=1}^L \alpha_k P_k$, where $P_k$ are Pauli strings (a string contituted of Pauli operator) easy to encode with quantum gates, and $\alpha_k$ the coeaficients. 
