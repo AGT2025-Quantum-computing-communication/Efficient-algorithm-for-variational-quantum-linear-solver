@@ -29,7 +29,7 @@ The implementation with quantum gates is straightforward: (i) we choose an ancil
 </p>
 
 <figure style="text-align:center">
-  <img src="Circ_diagrams.png" alt="Quantum Circuit" width="700">
+  <img src="draw_circ.pdf" alt="Quantum Circuit" width="700">
   <figcaption>Figure 1: Quantum circuit diagram</figcaption>
 </figure>
 
